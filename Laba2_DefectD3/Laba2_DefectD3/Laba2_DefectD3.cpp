@@ -2,7 +2,7 @@
 #include <iostream>
 
 bool isEligible(int score, int threshold) {
-    return score > threshold;
+    return score >= threshold;
 }
 
 int main() {
